@@ -1,0 +1,11 @@
+.input-field-item {
+  .input-field-item__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .input-field-item__settings {
+    display: flex;
+    align-items: center;
+  }
+}

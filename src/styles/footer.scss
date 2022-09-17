@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 24px;
+
+  .footer-section__wrapper {
+    width: 15%;
+
+    img {
+      width: 281px;
+    }
+
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2em;
+      margin: 0;
+    }
+
+    p {
+      font-size: 14px;
+      font-style: normal;
+      padding-left: 8px;
+      line-height: 1.4em;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      display: flex;
+      margin: 4px 0;
+    }
+  }
+}

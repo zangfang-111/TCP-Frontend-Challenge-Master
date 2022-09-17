@@ -1,0 +1,25 @@
+@import '../assets/index.scss';
+@import './sidemenu.scss';
+@import './content/index.scss';
+@import './footer.scss';
+@import './common/input.scss';
+
+body {
+  margin: 0;
+  font-family: Raleway, arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Raleway, arial, sans-serif;
+}
+
+.layout {
+  background-color: #303d4e;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+}
